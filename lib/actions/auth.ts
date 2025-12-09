@@ -1,7 +1,7 @@
 "use client";
 
-import { authClient } from "@/lib/auth-client";
 import type { MagicLinkFormValues } from "@/lib/validations/auth";
+import { authClient } from "../auth/auth-client";
 
 export async function sendMagicLink(data: MagicLinkFormValues) {
   const result = await authClient.signIn.magicLink({

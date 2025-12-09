@@ -70,8 +70,8 @@ export function AuthForm() {
   if (emailSent) {
     return (
       <div className="space-y-4 text-center">
-        <div className="rounded-full bg-primary/10 w-16 h-16 flex items-center justify-center mx-auto">
-          <Mail className="h-8 w-8 text-primary" />
+        <div className="rounded-full bg-primary/20 w-20 h-20 flex items-center justify-center mx-auto glow-primary">
+          <Mail className="h-10 w-10 text-primary" />
         </div>
         <div className="space-y-2">
           <h3 className="font-semibold text-lg">Check your email</h3>
@@ -131,7 +131,7 @@ export function AuthForm() {
           <Separator className="w-full" />
         </div>
         <div className="relative flex justify-center text-xs uppercase">
-          <span className="bg-background px-2 text-muted-foreground">
+          <span className="bg-card px-3 text-muted-foreground">
             Or continue with
           </span>
         </div>
